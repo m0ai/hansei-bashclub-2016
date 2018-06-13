@@ -1,0 +1,25 @@
+form
+{
+    border : 5px;
+}
+form > label {
+    display:block;
+    margin-bottom: 10px;
+}
+form > label > span{
+    display: inline-block;
+    float: left;
+}
+form > label > input 
+{
+    background: transparent;
+    border: none;
+    color : white;
+    border-bottom: 1px solid #7e7e7e;
+    outline: none;
+    padding: 0px 15px 0px 0px;
+    font-size : 23px;
+}
+form > label > input:focus{
+    border-bottom: 1px solid #D9FFA9;
+}
